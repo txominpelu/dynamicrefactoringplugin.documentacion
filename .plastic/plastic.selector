@@ -1,0 +1,4 @@
+repository "1011evaluacion01"
+  path "/"
+    smartbranch "/main/tercera-iteracion-y-media" 
+     

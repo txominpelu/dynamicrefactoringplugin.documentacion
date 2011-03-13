@@ -1,0 +1,4 @@
+Estilos:
+
+Tools - Para nombres de software o herramientas. (Por ejemplo Maven)
+ReferenciaProyecto - Para referencias a clases, carpetas o ficheros del proyecto (definido en Anexo 4)
