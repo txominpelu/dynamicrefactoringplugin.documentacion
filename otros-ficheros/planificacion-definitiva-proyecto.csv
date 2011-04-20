@@ -1,0 +1,62 @@
+Tarea; Duración;  Fecha Inicio; Fecha Fin
+Estudio de documentación previa;3 días;07/01/2011;12/01/2011
+Enumeración de requisitos funcionales;2 días;12/01/2011;14/01/2011
+Planificación temporal;1 días;14/01/2011;15/01/2011
+Estudio preliminar de costes y de viabilidad;1 días;17/01/2011;18/01/2011
+Análisis de riesgos;1 días;18/01/2011;19/01/2011
+Estudio de herramientas a utilizar;1 días;18/01/2011;19/01/2011
+Requisitos tecnológicos;1 días;19/01/2010;20/01/2010
+Traspaso del plugin a versión 3.5 de Eclipse;2 días;19/01/2011;21/01/2011
+Incorporación de última versión de bibliotecas;2 días;21/01/2011;25/01/2011
+Iteración 1;9 días;26/01/2011;08/02/2011
+Separación del proyecto de tests;2 días;26/01/2011;28/01/2011
+Automatización de la construcción del proyecto (1);2 días;28/01/2011;01/02/2011
+Prototipado de vista de catálogo de refactorizaciones;1 días;01/02/2011;02/02/2011
+Implementación del modelo del dominio de la clasificación de refactorizaciones;4 días;28/01/2011;03/02/2011
+Filtrado de Clasificaciones;2 días;03/02/2011;05/02/2011
+Cambio Interno - Sustituir constantes enteras RefactoringConstants.Action/Precondition/Postcondition por Enum;1 días;07/02/2011;08/02/2011
+Iteración 2;9 días;09/02/2011;22/02/2011
+Automatización de la construcción del proyecto (2);1 días;09/02/2011;10/02/2011
+Configuración de proceso de build diario;1 días;10/02/2011;11/02/2011
+XML de las clasificaciones;3 días;11/02/2011;16/02/2011
+Actualización del XML de las refactorizaciones;2 días;16/02/2011;18/02/2011
+Crear vista de catalogo - Asignar categorias al crear/editar una refact.;2 días;18/02/2011;22/02/2011
+Iteración 3;9 días;22/02/2011;05/03/2011
+Versión de línea de comandos del catálogo de clasificaciones;2 días;22/02/2011;24/02/2011
+Primera versión de la vista del catálogo de refactorizaciones en en Eclipse;2 días;24/02/2011;26/02/2011
+Permitir agregar palabras claves a los metadatos de una refactorización;2 días;28/02/2011;02/03/2011
+Añadir al xml de las refactorizaciones el scope al que pertenecen;1 días;02/03/2011;03/03/2011
+Vista Catálogo - Agregar botón de refrescar refactorizaciones;2 días;03/03/2011;05/03/2011
+Configurar servidor virtual en amazon para servidor de build y métricas;4 días;22/02/2011;26/02/2011
+Instalación de plugin desde internet;5 días;25/02/2011;04/03/2011
+Iteración 4;9 días;07/03/2011;18/03/2011
+Editor de clasificaciones desde Eclipse;3 días;07/03/2011;10/03/2011
+Prototipado de la ayuda a la creación de refactorizaciones;1 días;10/03/2011;11/03/2011
+Pestañas con información adicional en vista del catálogo;1 días;11/03/2011;12/03/2011
+Vista Catalogo - Filtrado desde interfaz;1 días;14/03/2011;15/03/2011
+Vista Catálogo - Añadir un Examples Tab al FolderTab;1 días;15/03/2011;16/03/2011
+Bug - DynamicRefactoring Wizard - No muestra el javadoc de los elementos;1 días;16/03/2011;17/03/2011
+Bug - Error al intentar aplicar la refactorizacion RenameParameter de un metodo;1 días;17/03/2011;18/03/2011
+Bug - Error al intentar aplicar RenameField;1 días;17/03/2011;18/03/2011
+Iteración 5;9 días;21/03/2011;01/04/2011
+Debate y prototipado sobre versiones de las refactorizaciones;2 días;21/03/2011;23/03/2011
+Implementación de obtención de la metainformación de entradas, predicados y acciones;4 días;23/03/2011;29/03/2011
+Implementación de la búsqueda avanzada en la ayuda;2 días;29/03/2011;31/03/2011
+Incorporar certificado para la instalación del plugin;1 días;31/03/2011;01/04/2011
+Bug Wizard - Input Configuration (Step 2 of 7) - flechas orden lista;2 días;25/03/2011;29/03/2011
+Cambio Interno - Sustituir InputParameters como HashMap por objeto con atributos;2 días;29/03/2011;31/03/2011
+Iteración 6;9 días;04/04/2011;15/04/2011
+Implementación de versionado de refactorizaciones;3 días;04/04/2011;07/04/2011
+Cambio interno : Sustituir Ambiguous Parameter como Mapa por objeto perteneciente a una precondicion, accion o postcondicion;1 días;07/04/2011;08/04/2011
+Cambio interno: Repositorio único de refactorizaciones en el proyecto;4 días;08/04/2011;14/04/2011
+Cambio interno : Hacer las refactorizaciones accesibles desde un directorio independiente del workspace;1 días;14/04/2011;15/04/2011
+Iteración 7;8 días;18/04/2011;28/04/2011
+Habilitar un servidor web o ftp con ip fija para instalacion del plugin desde internet;2 días;18/04/2011;20/04/2011
+Bug Wizard: (Step 1 of 7) Interfaz se descuadra ante modificaciones de la ventana;2 días;20/04/2011;22/04/2011
+Versionado de clasificaciones;2 días;22/04/2011;26/04/2011
+Mejoras al editor de clasificaciones;2 días;26/04/2011;28/04/2011
+Documentación;28 días;29/04/2011;08/06/2011
+Manual de usuario;5 días;29/04/2011;06/05/2011
+Documentación técnica;6 días;06/05/2011;14/05/2011
+Memoria principal del proyecto;12 días;16/05/2011;01/06/2011
+Anexos;5 días;01/06/2011;08/06/2011

@@ -1,0 +1,39 @@
+Tarea; Duración;  Fecha Inicio; Fecha Fin
+Estudio de documentación previa;3 días;07/01/2011;12/01/2011
+Enumeración de requisitos funcionales;2 días;12/01/2011;14/01/2011
+Planificación temporal;1 días;14/01/2011;15/01/2011
+Estudio preliminar de costes y de viabilidad;1 días;17/01/2011;18/01/2011
+Estudio de herramientas a utilizar;1 días;18/01/2011;19/01/2011
+Traspaso del plugin a versión 3.5 de Eclipse;2 días;19/01/2011;21/01/2011
+Incorporación de última versión de bibliotecas;2 días;21/01/2011;25/01/2011
+Iteración 1;9 días;26/01/2011;08/02/2011
+Separación del proyecto de tests;3 días;26/01/2011;29/01/2011
+Automatización de la construcción del proyecto;5 días;31/01/2011;05/02/2011
+Configuración de proceso de build diario;1 días;07/02/2011;08/02/2011
+Prototipado de vista de catálogo de refactorizaciones;1 días;07/02/2011;08/02/2011
+Iteración 2;9 días;09/02/2011;22/02/2011
+Implementación del modelo del dominio de la clasificación de refactorizaciones;4 días;09/02/2011;15/02/2011
+Filtrado de Clasificaciones;5 días;15/02/2011;22/02/2011
+Actualización del XML de las refactorizaciones;3 días;15/02/2011;18/02/2011
+Iteración 3;9 días;23/02/2011;08/03/2011
+Versión de línea de comandos del catálogo de clasificaciones;2 días;23/02/2011;25/02/2011
+Primera versión de la vista del catálogo de refactorizaciones en en Eclipse;4 días;25/02/2011;03/03/2011
+XML de las clasificaciones;3 días;03/03/2011;08/03/2011
+Iteración 4;9 días;09/03/2011;22/03/2011
+Instalación de plugin desde internet;2 días;09/03/2011;11/03/2011
+Editor de clasificaciones desde Eclipse;3 días;11/03/2011;16/03/2011
+Pestañas con información adicional en vista del catálogo;3 días;16/03/2011;19/03/2011
+Prototipado de la ayuda a la creación de refactorizaciones;1 días;21/03/2011;22/03/2011
+Iteración 5;9 días;22/03/2011;02/04/2011
+Debate y prototipado sobre versiones de las refactorizaciones;2 días;22/03/2011;24/03/2011
+Implementación de obtención de la metainformación de entradas, predicados y acciones;4 días;24/03/2011;30/03/2011
+Implementación de la búsqueda avanzada en la ayuda;3 días;30/03/2011;02/04/2011
+Iteración 6;9 días;05/04/2011;16/04/2011
+Implementación de versionado de refactorizaciones;4 días;05/04/2011;09/04/2011
+Implementación de versionado de clasificaciones;3 días;11/04/2011;14/04/2011
+Implementación de previsualización de resultados de aplicar refactorización;2 días;14/04/2011;16/04/2011
+Documentación;28 días;18/04/2011;26/05/2011
+Manual de usuario;5 días;18/04/2011;23/04/2011
+Documentación técnica;6 días;25/04/2011;03/05/2011
+Memoria principal del proyecto;12 días;03/05/2011;19/05/2011
+Anexos;5 días;19/05/2011;26/05/2011

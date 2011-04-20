@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Untitled Gantt Project" company="" webLink="http://" view-date="2010-11-08" view-index="0" gantt-divider-location="878" resource-divider-location="300" version="2.0">
+    <description/>
+    <view zooming-state="default:5" id="gantt-chart"/>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="55" order="0"/>
+        <field id="1" name="Función" width="44" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <calendar id="1" name="default">
+                <default-week sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+                <overriden-day-types/>
+                <days/>
+            </calendar>
+        </day-types>
+    </calendars>
+    <tasks color="#8cb6ce">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Estudio de documentación previa" color="#8cb6ce" meeting="false" start="2011-01-07" duration="3" complete="0" priority="1" expand="true">
+            <depend id="1" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="1" name="Enumeración de requisitos funcionales" color="#8cb6ce" meeting="false" start="2011-01-12" duration="2" complete="0" priority="1" expand="true">
+            <depend id="2" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="2" name="Planificación temporal" color="#8cb6ce" meeting="false" start="2011-01-14" duration="1" complete="0" priority="1" expand="true">
+            <depend id="3" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="3" name="Estudio preliminar de costes y de viabilidad" color="#8cb6ce" meeting="false" start="2011-01-17" duration="1" complete="0" priority="1" expand="true">
+            <depend id="4" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="39" name="Análisis de riesgos" color="#8cb6ce" meeting="false" start="2011-01-18" duration="1" complete="0" priority="1" expand="true"/>
+        <task id="4" name="Estudio de herramientas a utilizar" color="#8cb6ce" meeting="false" start="2011-01-18" duration="1" complete="0" priority="1" expand="true">
+            <depend id="5" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="40" name="Requisitos tecnológicos" color="#8cb6ce" meeting="false" start="2010-01-19" duration="1" complete="0" priority="1" expand="true"/>
+        <task id="5" name="Traspaso del plugin a versión 3.5 de Eclipse" color="#8cb6ce" meeting="false" start="2011-01-19" duration="2" complete="0" priority="1" expand="true">
+            <depend id="6" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="6" name="Incorporación de última versión de bibliotecas" color="#8cb6ce" meeting="false" start="2011-01-21" duration="2" complete="0" priority="1" expand="true"/>
+        <task id="7" name="Iteración 1" color="#8cb6ce" meeting="false" start="2011-01-26" duration="9" complete="0" priority="1" expand="true">
+            <depend id="8" type="2" difference="0" hardness="Strong"/>
+            <task id="14" name="Separación del proyecto de tests" color="#8cb6ce" meeting="false" start="2011-01-26" duration="2" complete="0" priority="1" expand="true">
+                <depend id="15" type="2" difference="0" hardness="Strong"/>
+                <depend id="16" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="15" name="Automatización de la construcción del proyecto (1)" color="#8cb6ce" meeting="false" start="2011-01-28" duration="2" complete="0" priority="1" expand="true">
+                <depend id="16" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="16" name="Prototipado de vista de catálogo de refactorizaciones" color="#8cb6ce" meeting="false" start="2011-02-01" duration="1" complete="0" priority="1" expand="true"/>
+            <task id="17" name="Implementación del modelo del dominio de la clasificación de refactorizaciones" color="#8cb6ce" meeting="false" start="2011-01-28" duration="4" complete="0" priority="1" expand="true">
+                <depend id="19" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="19" name="Filtrado de Clasificaciones" color="#8cb6ce" meeting="false" start="2011-02-03" duration="2" complete="0" priority="1" expand="true">
+                <depend id="60" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="60" name="Cambio Interno - Sustituir constantes enteras RefactoringConstants.Action/Precondition/Postcondition por Enum" color="#8cb6ce" meeting="false" start="2011-02-07" duration="1" complete="0" priority="1" expand="true"/>
+        </task>
+        <task id="8" name="Iteración 2" color="#8cb6ce" meeting="false" start="2011-02-09" duration="9" complete="0" priority="1" expand="true">
+            <depend id="9" type="2" difference="1" hardness="Strong"/>
+            <task id="43" name="Automatización de la construcción del proyecto (2)" color="#8cb6ce" meeting="false" start="2011-02-09" duration="1" complete="0" priority="1" expand="true">
+                <depend id="25" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="25" name="Configuración de proceso de build diario" color="#8cb6ce" meeting="false" start="2011-02-10" duration="1" complete="0" priority="1" expand="true">
+                <depend id="42" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="42" name="XML de las clasificaciones" color="#8cb6ce" meeting="false" start="2011-02-11" duration="3" complete="0" priority="1" expand="false">
+                <depend id="18" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="18" name="Actualización del XML de las refactorizaciones" color="#8cb6ce" meeting="false" start="2011-02-16" duration="2" complete="0" priority="1" expand="true">
+                <depend id="44" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="44" name="Crear vista de catalogo - Asignar categorias al crear/editar una refact." color="#8cb6ce" meeting="false" start="2011-02-18" duration="2" complete="0" priority="1" expand="true"/>
+        </task>
+        <task id="9" name="Iteración 3" color="#8cb6ce" meeting="false" start="2011-02-22" duration="9" complete="0" priority="1" expand="true">
+            <depend id="10" type="2" difference="1" hardness="Strong"/>
+            <task id="21" name="Versión de línea de comandos del catálogo de clasificaciones" color="#8cb6ce" meeting="false" start="2011-02-22" duration="2" complete="0" priority="1" expand="true">
+                <depend id="22" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="22" name="Primera versión de la vista del catálogo de refactorizaciones en en Eclipse" color="#8cb6ce" meeting="false" start="2011-02-24" duration="2" complete="0" priority="1" expand="true">
+                <depend id="45" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="45" name="Permitir agregar palabras claves a los metadatos de una refactorización" color="#8cb6ce" meeting="false" start="2011-02-28" duration="2" complete="0" priority="1" expand="true">
+                <depend id="46" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="46" name="Añadir al xml de las refactorizaciones el scope al que pertenecen" color="#8cb6ce" meeting="false" start="2011-03-02" duration="1" complete="0" priority="1" expand="true">
+                <depend id="52" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="52" name="Vista Catálogo - Agregar botón de refrescar refactorizaciones" color="#8cb6ce" meeting="false" start="2011-03-03" duration="2" complete="0" priority="1" expand="true"/>
+            <task id="47" name="Configurar servidor virtual en amazon para servidor de build y métricas" color="#8cb6ce" meeting="false" start="2011-02-22" duration="4" complete="0" priority="1" expand="true">
+                <depend id="24" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="24" name="Instalación de plugin desde internet" color="#8cb6ce" meeting="false" start="2011-02-25" duration="5" complete="0" priority="1" expand="true">
+                <depend id="26" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="10" name="Iteración 4" color="#8cb6ce" meeting="false" start="2011-03-07" duration="9" complete="0" priority="1" expand="true">
+            <depend id="11" type="2" difference="1" hardness="Strong"/>
+            <task id="26" name="Editor de clasificaciones desde Eclipse" color="#8cb6ce" meeting="false" start="2011-03-07" duration="3" complete="0" priority="1" expand="true">
+                <depend id="28" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="28" name="Prototipado de la ayuda a la creación de refactorizaciones" color="#8cb6ce" meeting="false" start="2011-03-10" duration="1" complete="0" priority="1" expand="true">
+                <depend id="27" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="27" name="Pestañas con información adicional en vista del catálogo" color="#8cb6ce" meeting="false" start="2011-03-11" duration="1" complete="0" priority="1" expand="true">
+                <depend id="48" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="48" name="Vista Catalogo - Filtrado desde interfaz" color="#8cb6ce" meeting="false" start="2011-03-14" duration="1" complete="0" priority="1" expand="true">
+                <depend id="56" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="56" name="Vista Catálogo - Añadir un Examples Tab al FolderTab" color="#8cb6ce" meeting="false" start="2011-03-15" duration="1" complete="0" priority="1" expand="true"/>
+            <task id="49" name="Bug - DynamicRefactoring Wizard - No muestra el javadoc de los elementos" color="#8cb6ce" meeting="false" start="2011-03-16" duration="1" complete="0" priority="1" expand="true">
+                <depend id="51" type="2" difference="0" hardness="Strong"/>
+                <depend id="54" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="51" name="Bug - Error al intentar aplicar la refactorizacion RenameParameter de un metodo" color="#8cb6ce" meeting="false" start="2011-03-17" duration="1" complete="0" priority="1" expand="true"/>
+            <task id="54" name="Bug - Error al intentar aplicar RenameField" color="#8cb6ce" meeting="false" start="2011-03-17" duration="1" complete="0" priority="1" expand="false"/>
+        </task>
+        <task id="11" name="Iteración 5" color="#8cb6ce" meeting="false" start="2011-03-21" duration="9" complete="0" priority="1" expand="true">
+            <depend id="12" type="2" difference="1" hardness="Strong"/>
+            <task id="29" name="Debate y prototipado sobre versiones de las refactorizaciones" color="#8cb6ce" meeting="false" start="2011-03-21" duration="2" complete="0" priority="1" expand="true">
+                <depend id="31" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="31" name="Implementación de obtención de la metainformación de entradas, predicados y acciones" color="#8cb6ce" meeting="false" start="2011-03-23" duration="4" complete="0" priority="1" expand="true">
+                <depend id="30" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="30" name="Implementación de la búsqueda avanzada en la ayuda" color="#8cb6ce" meeting="false" start="2011-03-29" duration="2" complete="0" priority="1" expand="true">
+                <depend id="57" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="57" name="Incorporar certificado para la instalación del plugin" color="#8cb6ce" meeting="false" start="2011-03-31" duration="1" complete="0" priority="1" expand="true"/>
+            <task id="58" name="Bug Wizard - Input Configuration (Step 2 of 7) - flechas orden lista" color="#8cb6ce" meeting="false" start="2011-03-25" duration="2" complete="0" priority="1" expand="true">
+                <depend id="59" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="59" name="Cambio Interno - Sustituir InputParameters como HashMap por objeto con atributos" color="#8cb6ce" meeting="false" start="2011-03-29" duration="2" complete="0" priority="1" expand="true"/>
+        </task>
+        <task id="12" name="Iteración 6" color="#8cb6ce" meeting="false" start="2011-04-04" duration="9" complete="0" priority="1" expand="true">
+            <depend id="13" type="2" difference="1" hardness="Strong"/>
+            <task id="32" name="Implementación de versionado de refactorizaciones" color="#8cb6ce" meeting="false" start="2011-04-04" duration="3" complete="0" priority="1" expand="true"/>
+            <task id="62" name="Cambio interno : Sustituir Ambiguous Parameter como Mapa por objeto perteneciente a una precondicion, accion o postcondicion" color="#8cb6ce" meeting="false" start="2011-04-07" duration="1" complete="0" priority="1" expand="true"/>
+            <task id="65" name="Cambio interno: Repositorio único de refactorizaciones en el proyecto" color="#8cb6ce" meeting="false" start="2011-04-08" duration="4" complete="0" priority="1" expand="true"/>
+            <task id="61" name="Cambio interno : Hacer las refactorizaciones accesibles desde un directorio independiente del workspace" color="#8cb6ce" meeting="false" start="2011-04-14" duration="1" complete="0" priority="1" expand="true"/>
+        </task>
+        <task id="63" name="Iteración 7" color="#8cb6ce" meeting="false" start="2011-04-18" duration="8" complete="0" priority="1" expand="true">
+            <task id="64" name="Habilitar un servidor web o ftp con ip fija para instalacion del plugin desde internet" color="#8cb6ce" meeting="false" start="2011-04-18" duration="2" complete="0" priority="1" expand="true">
+                <depend id="66" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="66" name="Bug Wizard: (Step 1 of 7) Interfaz se descuadra ante modificaciones de la ventana" color="#8cb6ce" meeting="false" start="2011-04-20" duration="2" complete="0" priority="1" expand="true"/>
+            <task id="68" name="Versionado de clasificaciones" color="#8cb6ce" meeting="false" start="2011-04-22" duration="2" complete="0" priority="1" expand="true"/>
+            <task id="69" name="Mejoras al editor de clasificaciones" color="#8cb6ce" meeting="false" start="2011-04-26" duration="2" complete="0" priority="1" expand="true"/>
+        </task>
+        <task id="13" name="Documentación" color="#8cb6ce" meeting="false" start="2011-04-29" duration="28" complete="0" priority="1" expand="true">
+            <task id="35" name="Manual de usuario" color="#8cb6ce" meeting="false" start="2011-04-29" duration="5" complete="0" priority="1" expand="true">
+                <depend id="36" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="36" name="Documentación técnica" color="#8cb6ce" meeting="false" start="2011-05-06" duration="6" complete="0" priority="1" expand="true">
+                <depend id="37" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="37" name="Memoria principal del proyecto" color="#8cb6ce" meeting="false" start="2011-05-16" duration="12" complete="0" priority="1" expand="true">
+                <depend id="38" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="38" name="Anexos" color="#8cb6ce" meeting="false" start="2011-06-01" duration="5" complete="0" priority="1" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <taskdisplaycolumns>
+        <displaycolumn property-id="tpd3" order="0" width="501"/>
+        <displaycolumn property-id="tpd4" order="1" width="20"/>
+        <displaycolumn property-id="tpd5" order="2" width="17"/>
+        <displaycolumn property-id="tpd6" order="3" width="16"/>
+    </taskdisplaycolumns>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
