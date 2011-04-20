@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="Untitled Gantt Project" company="" webLink="http://" view-date="2010-11-08" view-index="0" gantt-divider-location="878" resource-divider-location="300" version="2.0">
+<project name="Untitled Gantt Project" company="" webLink="http://" view-date="2010-11-22" view-index="0" gantt-divider-location="30" resource-divider-location="300" version="2.0">
     <description/>
     <view zooming-state="default:5" id="gantt-chart"/>
     <view id="resource-table">
@@ -154,25 +154,25 @@
             <task id="65" name="Cambio interno: Repositorio único de refactorizaciones en el proyecto" color="#8cb6ce" meeting="false" start="2011-04-08" duration="4" complete="0" priority="1" expand="true"/>
             <task id="61" name="Cambio interno : Hacer las refactorizaciones accesibles desde un directorio independiente del workspace" color="#8cb6ce" meeting="false" start="2011-04-14" duration="1" complete="0" priority="1" expand="true"/>
         </task>
-        <task id="63" name="Iteración 7" color="#8cb6ce" meeting="false" start="2011-04-18" duration="8" complete="0" priority="1" expand="true">
+        <task id="63" name="Iteración 7" color="#8cb6ce" meeting="false" start="2011-04-18" duration="9" complete="0" priority="1" expand="true">
             <task id="64" name="Habilitar un servidor web o ftp con ip fija para instalacion del plugin desde internet" color="#8cb6ce" meeting="false" start="2011-04-18" duration="2" complete="0" priority="1" expand="true">
                 <depend id="66" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="66" name="Bug Wizard: (Step 1 of 7) Interfaz se descuadra ante modificaciones de la ventana" color="#8cb6ce" meeting="false" start="2011-04-20" duration="2" complete="0" priority="1" expand="true"/>
             <task id="68" name="Versionado de clasificaciones" color="#8cb6ce" meeting="false" start="2011-04-22" duration="2" complete="0" priority="1" expand="true"/>
-            <task id="69" name="Mejoras al editor de clasificaciones" color="#8cb6ce" meeting="false" start="2011-04-26" duration="2" complete="0" priority="1" expand="true"/>
+            <task id="69" name="Mejoras al editor de clasificaciones" color="#8cb6ce" meeting="false" start="2011-04-26" duration="3" complete="0" priority="1" expand="true"/>
         </task>
-        <task id="13" name="Documentación" color="#8cb6ce" meeting="false" start="2011-04-29" duration="28" complete="0" priority="1" expand="true">
+        <task id="13" name="Documentación" color="#8cb6ce" meeting="false" start="2011-04-29" duration="22" complete="0" priority="1" expand="true">
             <task id="35" name="Manual de usuario" color="#8cb6ce" meeting="false" start="2011-04-29" duration="5" complete="0" priority="1" expand="true">
                 <depend id="36" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="36" name="Documentación técnica" color="#8cb6ce" meeting="false" start="2011-05-06" duration="6" complete="0" priority="1" expand="true">
                 <depend id="37" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="37" name="Memoria principal del proyecto" color="#8cb6ce" meeting="false" start="2011-05-16" duration="12" complete="0" priority="1" expand="true">
+            <task id="37" name="Memoria principal del proyecto" color="#8cb6ce" meeting="false" start="2011-05-06" duration="12" complete="0" priority="1" expand="true">
                 <depend id="38" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="38" name="Anexos" color="#8cb6ce" meeting="false" start="2011-06-01" duration="5" complete="0" priority="1" expand="true"/>
+            <task id="38" name="Anexos" color="#8cb6ce" meeting="false" start="2011-05-24" duration="5" complete="0" priority="1" expand="true"/>
         </task>
     </tasks>
     <resources/>
